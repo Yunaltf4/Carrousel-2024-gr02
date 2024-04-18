@@ -1,0 +1,10 @@
+.galerie{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border:3px solid red;
+}
+
+html{
+    margin: 0 !important;
+}
