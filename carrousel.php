@@ -36,11 +36,11 @@ function html_boite()
     /////////////////////////////////////// HTML
     // Le conteneur d'une boîte
 
-    $contenu = '<button class="bouton__ouvrir">Ouvrir</button>
+    $contenu = '<button class="bouton_ouvrir">Ouvrir</button>
     <div class="carrousel">
-    <button class="carrousel__x">X</button>
-    <figure class="carrousel__figure"></figure>
-    <form class="carrousel__form"></form>
+    <button class="carrousel_x">X</button>
+    <figure class="carrousel_figure"></figure>
+    <form class="carrousel_form"></form>
     </div>';
     return $contenu;
 }
