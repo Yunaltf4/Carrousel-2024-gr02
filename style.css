@@ -8,13 +8,8 @@ html {
   transition: transform 0.25s;
   height: 50%;
   width: 50%;
-  left: 0%;
   border: 3px solid red;
   z-index: 2;
-}
-.carrousel img {
-  width: 50%;
-  height: auto;
 }
 
 .carrousel--ouvrir {
@@ -23,8 +18,30 @@ html {
 
 .carrousel_x {
   position: absolute;
+  z-index: 3;
   top: 0;
   right: 0;
   padding: 3px;
   border: 1px solid blue;
+}
+
+.carrousel_figure {
+  width: 100%;
+  height: 100%;
+}
+
+.carrousel_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.lesBtn {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
