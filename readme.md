@@ -4,6 +4,5 @@
 ## Labo5 
 
 
-### Liens URL (Github):
-- Github-page : https://yunaltf4.github.io/4w4-2024-gr2/
+### Liens URL (WHC):
 - Page whc : https://gftnth00.mywhc.ca/tim48/
