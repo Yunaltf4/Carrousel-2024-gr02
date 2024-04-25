@@ -1,39 +1,38 @@
-html {
-    margin: 0 !important;
-}
-
-
 .carrousel {
     position: absolute;
-    // display: none;
     transform: scale(0);
-    transition: transform 0.25s;
-    height: 50%;
+    transition: transform .25s;
     width: 50%;
-    border: 3px solid red;
-
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    border: 3px solid #00f;
+    background-color: rgba(0, 0, 0, .1);
     z-index: 2;
+}
+
+.carrousel__x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 6px;
+    border: 1px solid #444;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    z-index: 10;
 }
 
 .carrousel--ouvrir {
     transform: scale(1);
 }
 
-.carrousel_x {
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    right: 0;
-    padding: 3px;
-    border: 1px solid blue;
-}
 
-.carrousel_figure {
+.carrousel__figure {
     width: 100%;
     height: 100%;
 }
 
-.carrousel_img {
+.carrousel__img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -42,9 +41,6 @@ html {
     object-fit: cover;
 }
 
-.lesBtn {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+figure.wp-block-gallery {
+    display: none;
 }
